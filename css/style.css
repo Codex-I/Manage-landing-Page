@@ -1,0 +1,757 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&display=swap");
+
+body {
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: 110% -3rem;
+    background-size: 40rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: hsl(227, 12%, 61%);
+    margin: 43px 0 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo-img {
+    width: 8rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+    font-weight: 400;
+}
+
+nav a:hover {
+    font-weight: normal;
+    color: hsl(227, 12%, 61%);
+}
+
+ul {
+    font-size: 13px;
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+button {
+    background-color: hsl(12, 88%, 59%);
+    font-size: 12px;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight: 600;
+    width: 8rem;
+    box-shadow: 1px 1px 4px hsl(12deg 88% 59%);
+}
+
+button:hover {
+    border: 0;
+    opacity: 0.7;
+}
+
+.menu {
+    display: none;
+}
+
+p {
+    font-size: 13px;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    gap: 6em;
+}
+
+.Bring-2geda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bring-2geda div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Bring-2geda p {
+    width: 53%;
+}
+
+.Bring-2geda img {
+    width: 100%;
+}
+
+h1 {
+    width: 82%;
+    font-size: 51px;
+}
+
+h2 {
+    width: 78%;
+    font-size: 36px;
+}
+
+
+.features-section {
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: -28% 11rem;
+    background-size: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+
+}
+
+.difference {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+}
+
+.difference p {
+    width: 56%;
+}
+
+.hero-cont {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reasons {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.span-class {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-self: center;
+}
+
+.first span {
+    background-color: #ed5821;
+    padding: 11px;
+    height: 1vh;
+    width: 7%;
+    border-radius: 13px;
+    display: flex;
+    color: white;
+    font-family: serif;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.num p {
+    width: 69%;
+}
+
+h1,
+h2,
+h5,
+h6 {
+    color: #242d52;
+    margin: 0;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.T-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 25px;
+
+}
+
+.card {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    background-color: hsl(0, 0%, 98%);
+    padding: 26px;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 4px; */
+}
+
+.card:hover {
+    border-bottom: 2px solid hsl(12deg 84% 56%);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    align-items: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-img {
+    width: 3rem;
+    margin-top: -45px;
+}
+
+.simplify-section {
+    background-color: hsl(12deg 84% 56%);
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 18rem 100%;
+    background-size: 73rem;
+    padding: 5% 0%;
+    margin-top: 99px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+
+.simplify-section h2 {
+    color: white;
+}
+
+.simplify-section button {
+    color: #ed5821;
+    background-color: white;
+}
+
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    padding: 5% 0%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    width: 100%;
+}
+
+.jj {
+    display: flex;
+    gap: 3em;
+}
+
+.ft-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ft-one nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 11px;
+}
+
+.logo_img {
+    background-color: white;
+}
+
+i {
+    color: white;
+}
+
+i:hover {
+    color: hsl(27, 88%, 56%);
+}
+
+#mobile {
+    display: none;
+}
+
+.group-n {
+    display: flex;
+    gap: 5em;
+}
+
+.contact,
+.ca-po {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.contact a,
+.ca-po a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.contact :hover {
+    color: #ed5821;
+}
+
+.ca-po :hover {
+    color: #ed5821;
+}
+
+input {
+    padding: 13px 7px 13px 17px;
+    border-radius: 30px;
+    border: none;
+    outline: 1px solid #ed5821;
+}
+
+.last-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4em;
+    color: hsl(233, 8%, 62%);
+}
+
+.last-btn div {
+    display: flex;
+    gap: 1em;
+}
+
+.last-btn button {
+    width: 3rem;
+}
+
+.last-btn p {
+    width: 100%;
+    text-align: end;
+    font-size: 11px;
+}
+
+.copy-2 {
+    display: none;
+}
+
+@media only screen and (max-width: 699px) {
+    body {
+        background-image: url(../images/bg-tablet-pattern.svg);
+        background-repeat: no-repeat;
+        background-position: 4rem -5rem;
+        background-size: 23rem;
+        width: 100vw;
+        margin: 0;
+    }
+
+    header {
+        width: 100%;
+        gap: 50%;
+        padding: 18px 0;
+    }
+
+    header img {
+        width: 50%;
+        text-align: left;
+    }
+
+    header nav,
+    header button {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        width: 7%;
+        height: 23%;
+    }
+
+    main {
+        margin: 0 auto;
+        gap: 50px;
+    }
+
+    .Bring-2geda {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .Bring-2geda div {
+        width: 100%;
+        align-items: center;
+    }
+
+    .Bring-2geda img {
+        width: 100%;
+    }
+
+    .Bring-2geda p {
+        width: 100%;
+        text-align: center;
+        line-height: 1.8;
+        font-size: 14px;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 31px;
+        text-align: center;
+    }
+
+    .span-class {
+        gap: 10px;
+        background-color: antiquewhite;
+        width: 97%;
+    }
+
+    .first {
+        width: 100%;
+        align-items: center;
+    }
+
+    .first span {
+        width: 9%;
+        font-size: 13px;
+        font-family: sans-serif;
+    }
+
+    .features-section {
+        background-position: 7rem -13rem;
+        background-size: 24rem;
+        gap: 2em;
+        width: 100%;
+    }
+
+    .difference {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+        align-self: center;
+        margin: 0;
+    }
+
+    .difference p {
+        width: 89%;
+        text-align: center;
+        align-self: center;
+        font-size: 11px;
+        display: flex;
+        line-height: 1.8;
+    }
+
+    .num {
+        width: 90%;
+    }
+
+    .num p {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .hero-cont {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-self: center;
+    }
+
+    h2 {
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+    .reasons {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        width: 100%;
+
+
+    }
+
+    .reason h2 {
+        font-size: 24px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .reason p {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #li,
+    #wat {
+        display: none;
+    }
+
+    .card {
+        width: 70%;
+        padding: 22px;
+    }
+
+    .card-text {
+        font-size: 10px;
+        line-height: 1.8;
+    }
+
+    .select {
+        display: flex;
+        gap: 4px;
+        width: 30%;
+        justify-content: center;
+    }
+
+    .select span {
+        border: 1px solid orangered;
+        padding: 4px;
+        border-radius: 50px;
+    }
+
+    .select span:hover {
+        background-color: #ed5821;
+    }
+
+    .simplify-section {
+        margin: 0;
+        align-self: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .simplify-section div {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .simplify-section h2 {
+        width: 20rem;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        gap: 2em;
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    #mobile {
+        display: flex;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    .jj {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2em;
+        text-align: center;
+    }
+
+    .ft-one {
+        gap: 2em;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+
+    .ft-one nav {
+        display: flex;
+        gap: 19px;
+    }
+
+    .group-n {
+        display: flex;
+        gap: 3em;
+        width: 100%;
+    }
+
+    .contact,
+    .ca-po {
+        gap: 1em;
+        color: aliceblue;
+        font-size: 12px;
+        width: 50%;
+        text-align: left;
+    }
+
+    .contact a,
+    .ca-po a {
+        color: white;
+        width: 96px;
+        font-weight: 100;
+    }
+
+    nav a {
+        color: aliceblue;
+    }
+
+    .copy-1 {
+        display: none;
+    }
+
+    .copy-2 {
+        font-size: 10px;
+    }
+
+    .last-btn button {
+        width: 4rem;
+    }
+
+    .last-btn div {
+        display: flex;
+        gap: 12px;
+    }
+}
+
+/* end of mobile */
+
+/* Breakpoint */
+@media screen and (min-width: 326px) and (max-width: 575px) {
+    .simplify-section {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .simplify-section {
+        width: 100%;
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    body {
+        margin: 0;
+        background-position: 24rem -5rem;
+        background-size: 34rem;
+    }
+
+    header {
+
+        padding: 14px 0;
+        align-items: center;
+
+    }
+
+    header ul {
+        font-size: 12px;
+        gap: 1em;
+        padding: 0;
+    }
+
+    /* header img {
+        width: 15%;
+    } */
+
+    button {
+        width: 8rem;
+        padding: 1em;
+    }
+
+    main {
+        margin-top: 1em;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 38px;
+    }
+
+    .Bring-2geda p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .difference {
+        width: 90%;
+        gap: 0;
+    }
+
+    .features-section {
+        align-self: center;
+    }
+
+    .simplify-section {
+        width: 100%;
+    }
+
+    .reasons p {
+        width: 60%;
+    }
+
+    footer {
+        width: 100%;
+        gap: 24px;
+    }
+
+    .jj {
+        gap: 2em;
+    }
+
+    .last-btn {
+        gap: 1em;
+        font-size: 13px;
+    }
+
+    .last-btn button {
+        width: 4rem;
+    }
+}
